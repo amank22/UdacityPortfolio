@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.aman.udacityportfolio.MenuActivity"
+    tools:showIn="@layout/activity_menu">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/naondeg_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/text_margin"
+            android:text="@string/my_nanodegree_apps"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/button_movies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/naondeg_heading"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Popular Movies"
+            android:padding="10dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/button_stock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_movies"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Stock Hawk"
+            android:padding="10dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/button_bigger"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_stock"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Build it Bigger"
+            android:padding="10dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/button_material"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_bigger"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Make Your App Material"
+            android:padding="10dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/button_ubiquitous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_material"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Go Ubiquitous"
+            android:padding="10dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/button_capstone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_ubiquitous"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Capstone"
+            android:padding="10dp" />
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
